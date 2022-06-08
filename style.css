@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: white; */
+    background-image: url(./background\ white.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    backdrop-filter: blur;
+    
+    
+}
+.container-fluid{
+    background-color: whitesmoke;
+    height: 90vh;
+    margin-top: 150px;
+    border-radius: 20px;
+    
+}
+button{
+margin: 20px 0;
+border: none;
+background-color: white;
+padding: 5px;
+border-radius : 10px; 
+width: 80px;
+height:40px ;
+}
+
+.main{
+    margin-top: 20px;
+    height: 30vh;
+    /* margin-bottom: 20px; */
+
+    
+}
+.card{
+    border-radius: 20px;
+}
+.card-img-top1{
+    width: 430px;
+    height: 300px;
+    border-radius: 40px;
+    margin: 20px;
+    
+}
+.card-img-top{
+    width:130px ;
+    height: 100px;
+    border-radius: 15px;
+}
+small{
+    font-weight: bold;
+}
+.icon{
+    width: 30% ;
+    height: 30% ;
+}
+.card-body{
+    margin-top: -20px;
+}
+.card-footer{
+    margin-top: -10px;
+}
+@media (max-width:920px) {
+    .card-img-top1{
+        width: 250px;
+        height: 200px;
+        border-radius: 40px;
+        margin: 20px;
+        
+    }
+    
+.card-img-top{
+    width:100px !important;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.span{
+    margin-left: 30px;
+}
+
+.container-fluid{
+    background-color: green;
+    height: 200vh;
+    margin-top: 150px;
+    border-radius: 20px;
+    
+}
+#image{
+    width: 80px !important;
+}
+}
